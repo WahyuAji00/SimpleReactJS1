@@ -1,10 +1,24 @@
 .App {
   text-align: center;
+  height: 100vh;
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navbar, .nav-link, .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +49,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-ok-button {
+  background-color: #3FA2F6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.custom-ok-button:hover {
+  background-color: #0F67B1;
 }

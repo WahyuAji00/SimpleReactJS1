@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;  
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --step0: #050C9C;
+  --step1: #4C3BCF;
+  --step2: #4B70F5;
+  --step3: #3572EF;
+  --step4: #3ABEF9;
+}
